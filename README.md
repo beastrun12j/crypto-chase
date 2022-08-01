@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Crypto Chase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <a>
+    <img src="https://github.com/beastrun12j/crypto-chase/blob/master/public/apple-touch-icon.png" alt="Logo" width="200">
+  </a>
 
-## Available Scripts
+<h4 align="center">Cryptocurrency tracking app built with ReactJS</h4>
 
-In the project directory, you can run:
+  <p align="center">
+    <a href="https://crypto-chase.web.app">View Deployment</a>
+    ·
+    <a href="https://github.com/beastrun12j/crypto-chase/issues">Report Bug</a>
+  </p>
+</div>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About the app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- The main goal of this app is to help users track their favourite cryptocurrencies who are provided with a dedicated watchlist to track the coins live.
+- The app uses [Coingecko API](https://www.coingecko.com/en/api) to support live crypto price tracking.
+- React ChartJs Library is used to map past performance chart of each coin.
 
-### `npm test`
+<p align="center">
+<img src="" height="420px"/>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Design
 
-### `npm run build`
+- The app makes use of Material UI 5 for the beautiful UI components.
+- All the icons are taken from [Icons8](https://icons8.com) under its free-tier subscription and [react-icons](https://www.npmjs.com/package/react-icons) package.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## About ReactJs
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React is a JavaScript-based UI development library. 
+- Facebook and an open-source developer community run it. 
+- Although React is a library rather than a language, it is widely used in web development. 
+- The library first appeared in May 2013 and is now one of the most commonly used frontend libraries for web development.
+- React offers various extensions for entire application architectural support, such as Flux and React Native, beyond mere UI.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Libraries and tools 🛠
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<li><a href="https://reactjs.org">React JS</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript ES6</a></li>
+<li><a href="https://firebase.google.com">Firebase</a></li>
+<li><a href="https://mui.com">Material UI 5</a></li>
+<li><a href="https://axios-http.com/docs/intro">Axios</a></li>
+<li><a href="https://react-chartjs-2.js.org">ChartJS</a></li>
+<li><a href="https://v5.reactrouter.com/web/guides/quick-start">React Router 5</a></li>
+<li><a href="https://react-icons.github.io/react-icons/">React Material Icons</a></li>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Fork and clone the repository locally.
+2. Navigate to the cloned folder
+3. Download the latest version of [Node.js](https://nodejs.org/en/download/) for your OS
+4. Run <code>npm install</code> 
+5. Start the app <code>npm run</code>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement" or "feature".
+Don't forget to give the project a star!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This application is released under MIT License for fair use (see [License](https://github.com/beastrun12j/Clouddy/blob/master/LICENSE)).
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
