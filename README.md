@@ -22,7 +22,7 @@
 - React ChartJs Library is used to map past performance chart of each coin.
 
 <p align="center">
-<img src="https://github.com/beastrun12j/crypto-chase/blob/master/demo.gif" height="420px"/>
+<img src="https://github.com/beastrun12j/crypto-chase/blob/master/demo.gif" />
 </p>
 
 ## Design
